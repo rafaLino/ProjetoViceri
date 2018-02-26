@@ -1,0 +1,135 @@
+﻿/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+textarea {
+    max-width: 280px;
+}
+
+/* Set padding to display errors that occur during databinding */
+.padding-error {
+    padding-top: 20px;
+}
+
+.m-dropdown.m-dropdown--arrow .m-dropdown__arrow {
+    left: 69% !important;
+}
+
+.m-dropdown.m-dropdown--align-center.m-dropdown--large .m-dropdown__wrapper {
+    margin-left: -260px !important;
+}
+
+body {
+    padding-right: 0px !important;
+}
+
+#tabela-relatoriosDespesa tr:first-child th:first-child i {
+    display: none !important;
+}
+
+
+/* DASHBOARD*/
+
+.painel {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    outline: 1px;
+    box-shadow: 1px 1px 3px gray;
+    width: 473px;
+    height: 170px;
+
+
+    background-color:white;
+}
+
+.image {
+    width: 40px;
+    height: 34px;
+    opacity: 0.22;
+   
+}
+
+.total {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 105px;
+    text-align: center;
+    
+}
+
+div.total > span {
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+
+div.total span:first-child {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+div.total span:last-child {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.65;
+    position: relative;
+}
+
+div.iconeslaterais {
+    width: 50px;
+    height: 100px;
+    position: relative;
+    bottom: 45px;
+}
+
+    div.iconeslaterais > i.fa-search {
+        opacity: 0.45;
+        position: relative;
+        left: 23px;
+    }
+
+    div.iconeslaterais > img {
+        position: relative;
+        right: 20px;
+        top: 28px;
+    }
+
+div.progress {
+    margin-left:10px;
+    
+    height:3px;
+    width:95%;
+
+    position:relative;
+    bottom:35px;
+    
+}
+
+.spanprogress{
+    margin-left:10px;
+    font-family:Arial;
+    font-size:14px;
+    color:black;
+    
+    position:relative;
+    bottom:30px;
+}
+
+#qtdRelatorio, #qtdDespesa{
+    margin-right:20px;
+    float:right;
+    clear:right;
+}
+
+
+#relatorio-options{
+    border:none;
+    outline:none;
+}
+/* FIM DASHBOARD*/
